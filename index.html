@@ -10,9 +10,15 @@
       <nav>
         <div>LOGO</div>
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact Me</li>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#my-projects">My Projects</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
         </ul>
       </nav>
 
@@ -41,9 +47,9 @@
           </div>
       </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="information">
-        <h2>About Me</h2>
+        <h2 >About Me</h2>
         <p>Hello. My name is Jinsheng Zhao. I am a full stack developer.</p>
       </div>
 
@@ -53,7 +59,7 @@
 
     </section>
 
-    <section class="project-section">
+    <section class="project-section" id="my-projects">
       <h2>My Projects</h2>
       <div class="project-container">
         <div class="project-card">
@@ -61,28 +67,29 @@
           <h3>Culture Shot</h3>
           <p class="project-description">This is my project</p>
           <hr>
-          <p class="project-description">view here</p>
+          <p class="project-description"><a class="project-link" href="https://www.culture-shot.art/"> view here</a></p>
         </div>
         <div class="project-card">
           <img class="project-img" src="src/images/hobbylobby.png" alt="project image">
           <h3>Hobby Lobby</h3>
           <p class="project-description">This is my project during bootcamp</p>
           <hr>
-          <p class="project-description">view here</p>
+          <p class="project-description"><a class="project-link" href=https://hobby-lobby-project.herokuapp.com/"> view here</a></p>
         </div>
         <div class="project-card">
           <img class="project-img" src="src/images/library.png" alt="project image">
           <h3>My Reading List</h3>
           <p class="project-description">This is my ongoing project</p>
           <hr>
-          <p class="project-description">view here</p>
+          <p class="project-description"><a class="project-link" href="#"> view here</a></p>
         </div>
       </div>
     </section>
 
-    <footer class="sub-section"></footer>
-
-
+    <footer id="contact-me">
+      <h2>Contact Me</h2>
+      <p>marlowzhao@163.com</p>
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>

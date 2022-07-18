@@ -3,9 +3,7 @@ body {
 }
 
 section{
-
   background-color: white;
-
 }
 
 .hero{
@@ -53,7 +51,6 @@ p{
 .project-description {
   font-size: 15px;
   font-weight: 300;
-
 }
 
 .hero-area{
@@ -77,7 +74,6 @@ p{
   padding-top:5px;
   font-size: 30px;
   font-weight: 500;
-
 }
 .button:hover{
   background-color: lightcoral;
@@ -130,6 +126,14 @@ h2 {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap:wrap;
+  }
+}
+
+
 .project-card {
  width: 300px;
  height: 400px;
@@ -137,10 +141,26 @@ h2 {
  border-radius: 15px;
 }
 
-.project-img{
+.project-img {
   width: 300px;
-
   /* height: 300px; */
   object-fit: cover;
   border-radius: 15px;
+}
+
+.project-link{
+  text-decoration:none;
+  color:chocolate;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  padding: 50px;
+  text-align: center;
 }
